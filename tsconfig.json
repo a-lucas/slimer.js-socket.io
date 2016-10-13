@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowUnreachableCode": false,
+    "module": "umd",
+    "noImplicitAny": false,
+    "declaration": false,
+    "diagnostics": true,
+    "listFiles": false,
+    "pretty": true,
+    //"traceResolution": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "watch": true,
+    "preserveConstEnums": true,
+    "outDir": "dist"/*,
+    "outFile": "dist/ngServer.js"*/
+  },
+  /*
+  "files": [
+      "typings/index.d.ts",
+      "src2/index.ts"
+  ],*/
+  "files": [
+    "typings/index.d.ts",
+    "src/slimerIO.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
