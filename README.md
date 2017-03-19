@@ -83,6 +83,22 @@ The `name` parameter must be unique, it is needed because i was too lazy to writ
 It opens a new parrallel webpage, which loads the `SocketDomain/socket.io/socket.io.js` client library.
 It then link socket.io's `emit`, `on` and `close` function to this webpage's `evaluate()` 
 
+
+## A working example is in the example folder
+
+```bash
+cd example
+npm i
+node server.js
+```
+
+then in another tab:
+
+```bash
+./node_modules/.bin/slimerjs slimer.js
+
+```
+
 ## Want to extend it?
 
 PR are welcome
