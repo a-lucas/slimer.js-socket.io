@@ -1,12 +1,12 @@
 {
-  "name": "angular.js-server",
+  "name": "slimer.js-socket.io",
   "author": "Antoine LUCAS <antoine.lucas.australia@gmail.com>",
   "scripts": {
     "typings": "./node_modules/.bin/typings install",
     "build": "./node_modules/.bin/tsc"
   },
   "main": "dist/slimerIO.js",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "repository": {
     "type": "git",
